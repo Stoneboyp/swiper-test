@@ -2,7 +2,6 @@ import { useRef } from "react";
 import { Swiper, SwiperSlide, SwiperRef } from "swiper/react";
 import 'swiper/css';
 import { Mousewheel, Pagination, Virtual } from 'swiper/modules';
-import Slide from "./components/Slide/Slide";
 const SlideList = () => {
     const newsListSwiperRef = useRef<SwiperRef>(null);
     const test = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
