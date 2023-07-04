@@ -1,0 +1,5 @@
+создать swiper компонент { swiper.map((todo, index) => (
+<div key="{index}">
+    <p key="{todo.text}">{todo.text} - {todo.status}</p>
+</div>
+)); }
